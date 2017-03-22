@@ -3,8 +3,10 @@ $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
 $gray-dark:              lighten($gray-base, 20%) !default;   // #333
 $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #
 
+
+$primary-color:         #3E69B0;
 $brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
@@ -21,3 +23,37 @@ $hr-border:				$gray-lighter;
 $link-color:			$brand-info;
 $link-hover-color:		darken($link-color, 15%);
 $color-text-body:       $gray;
+
+.hero__images{
+  width: 100%;
+}
+
+.blue-color{
+  background-color: #3E69B0;
+}
+
+.blue-lighter{
+  background-color: #62AAE0;
+}
+
+.blue-light{
+  background-color: #4376B1;
+}
+
+.blue-black{
+  background-color: #303373;
+}
+
+.blue-color-font{
+ color: #3E69B0;
+   &:hover{
+     color: #3E69B0;
+  }
+}
+
+.red-color-font{
+  color: #E93F3F;
+     &:hover{
+  color: #E93F3F;
+  }
+} 

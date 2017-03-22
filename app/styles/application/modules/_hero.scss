@@ -1,12 +1,12 @@
 .hero{
-  * {
+  *{
     color: inherit;
   }
-  background-repeat: no-repeat;
-  padding: $base-spacing-unit * 4 0 $base-spacing-unit * 4;
-  @media #{$small} {
-    padding: $base-spacing-unit * 6 0 $base-spacing-unit;
-  }
+  // background-repeat: no-repeat;
+  // padding: $base-spacing-unit * 4 0 $base-spacing-unit * 4;
+  // @media #{$small} {
+  //   padding: $base-spacing-unit * 6 0 $base-spacing-unit;
+  // }
 }
 
 .hero--main{
@@ -20,3 +20,12 @@
     @include rem(500px, height);
   }
 }
+
+.hero__container{
+  padding-top: 30px; 
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  height: 111px;
+}
+

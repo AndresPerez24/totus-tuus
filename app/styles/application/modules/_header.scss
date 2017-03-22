@@ -1,0 +1,38 @@
+.header{
+margin-top: 20px;
+}
+
+.header__info {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.header__social-bar{
+  float: left;
+}
+
+.header__logo{
+  float: right; 
+}
+
+.header__social-icons{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  text-align: center;
+  padding: 17px;
+  margin: 0 10px;
+  border-radius: 48px;
+  -webkit-box-shadow: inset 20px -22px 38px -2px rgba(237,232,237,1);
+  -moz-box-shadow: inset 20px -22px 38px -2px rgba(237,232,237,1);
+  box-shadow: inset 20px -22px 38px -2px rgba(237,232,237,1);
+}
+
+.social-icon{
+  &:hover{
+  }
+}

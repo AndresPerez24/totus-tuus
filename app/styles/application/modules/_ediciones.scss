@@ -1,0 +1,42 @@
+.ediciones{
+
+}
+
+.ediciones__title{
+  display: inline-block;
+  color: white;
+  background-color: #3E69B0;
+  font-size: 27px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 15px;
+  margin-top: 0;
+  width: 170px;
+}
+
+.ediciones__last-edicion{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    background-color: #62AAE0;
+    max-width: 202px;
+    height: 380px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.ediciones__img-container{
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.ediciones__img-info{
+  display: block;
+  font-size: 13px;
+
+}
+
+.ediciones__publicity{
+  height: 390px;
+  background-color: grey;
+}
